@@ -1,0 +1,44 @@
+.filter_menu{
+  
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px 0;
+    
+}
+.filter_menu select,input{
+    height: 40px;
+    border: 1px solid #50280f;
+    outline: none;
+    padding:0 5px;
+    border-radius: 50px;
+    margin: 5px;;
+    
+}
+.filter_menu input{
+    flex:1;
+    margin:0 10px;
+
+}
+.load_more{
+    text-align: center;
+}
+
+.load_more button{
+    padding:10px 25px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    text-transform: uppercase;
+}
+select option {
+    background: #e9d69e;; /* Marron */
+    color: #50280f;
+}
+
+select:focus option:hover {
+    background-color: #e9d69e; /* Marron */
+    color: #50280f;
+}

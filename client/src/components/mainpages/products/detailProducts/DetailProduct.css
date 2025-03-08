@@ -1,0 +1,85 @@
+.detail{
+    max-width: 1000px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:50px;
+    font-size:100%;
+    background-color: #50280f;
+    margin:20px auto;
+    padding:40px;
+    border-radius: 20px;
+    font-family:  Snell Roundhand, cursive;
+  
+}
+
+.detail img{
+    max-width:300px;
+    width:250px;
+    margin:20px;
+    height:250px;
+    object-fit: cover;
+    display: block;
+    margin:30px 0;
+    padding:10px;
+    border:2px solid whitesmoke;
+}
+.detail img:hover{
+    transform: scale(1.3)
+}
+.box-detail{
+    max-width: 500px;
+    width:100%;
+    margin:5px 20px;
+}
+
+.box-detail .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-detail h2{
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+
+.box-detail h6{
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding:5px 10px;
+    border-radius:10px;
+    font-size:19px;
+    background-color: #e9d69e;
+}
+.box-detail h5{
+    text-transform: uppercase;
+    color:#e9d69e;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size:19px;
+}
+.box-detail p{
+    line-height: 1.5;
+    margin:10px 0;
+    opacity:0.8;
+    color:white;
+    border-bottom: 1px solid honeydew;
+    padding:10px ;
+}
+
+.box-detail .cart{
+    background:black;
+    color:white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
