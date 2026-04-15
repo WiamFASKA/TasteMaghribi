@@ -24,7 +24,6 @@ Le projet intègre un système de gestion des utilisateurs et des commandes, ain
 - Gestion du panier
 - Recherche et filtrage des plats
 - Espace admin pour gérer les plats et commandes
-- (Future) Paiement en ligne
 - (Future) Gamification : challenges et promotions
 
 🎬 Démo vidéo
